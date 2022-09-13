@@ -15,7 +15,7 @@ class CharactersService {
       size,
       name,
     };
-    console.log(this.http.get('/', { params }));
+
     return this.http.get('/', { params });
   }
 }
